@@ -1,0 +1,53 @@
+<html>
+
+<body>
+    <style>
+        .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        .textCenter{
+            text-align: center;;
+        }
+    </style>
+  <h1 class="textCenter center">Azure SignalR Quickstart</h1>
+ 
+  
+
+  <div class="flex three demo">
+    <div><span></span></div>
+    <div half><span><article class="card">
+       <img class="center" src="https://cdn.iconscout.com/icon/free/png-256/github-169-1174970.png">
+        <footer>
+            <h3>Blueprint Databricks Utilities</h3>
+            <div>Current star count of this <a href="https://github.com/BlueprintTechnologies/Blueprint-Databricks-Utils">respository:</a></div>
+            <h3><div id="messages">Fetching...</div></h3>
+        </footer>
+      </article></span></div>
+    <div><span></span></div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/3.1.7/signalr.min.js"></script>
+  <script>
+    let messages = document.querySelector('#messages');
+    const apiBaseUrl = window.location.origin;
+    const connection = new signalR.HubConnectionBuilder()
+        .withUrl('/api')
+        .build();
+    connection.on('newMessage', (message) => {
+        document.getElementById("messages").innerHTML = message;
+      });
+        
+      connection.start()
+        .catch(console.error);
+
+        
+  </script>
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/picnic">
+
+</body>
+
+</html>
