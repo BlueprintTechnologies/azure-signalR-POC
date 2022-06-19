@@ -1,5 +1,8 @@
 # Blueprint Accelerator: Azure SignalR Quickstart Accelerator
 
+<img width="815" alt="final-build" src="https://user-images.githubusercontent.com/642655/174463463-e20583ad-1f8a-442c-8a5c-f48c6f8925ca.png">
+
+
 ### Background
 Azure SignalR Service is an Azure managed service that helps developers easily build web applications with real-time features. We put this accelerator together while evaluating SignalR for use in real-time dashboard updating (no refresh required). This accelerator is a revision and improvement upon the tutorial provided by Microsoft at https://docs.microsoft.com/en-us/azure/azure-signalr/signalr-quickstart-azure-functions-javascript.
 
