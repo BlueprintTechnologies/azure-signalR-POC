@@ -34,3 +34,6 @@ Node.js, version 10.x. Tested with the most current version but the Azure Core T
 3. Run `func start`.
 
 4. Win.
+
+### Other Notes
+Picnic CSS is a lightweight CSS framework used for this quickstart. More information about this framework is available at https://picnicss.com/. 
