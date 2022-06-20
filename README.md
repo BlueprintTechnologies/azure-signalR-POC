@@ -1,4 +1,4 @@
-# Blueprint Accelerator: Azure SignalR Quickstart Accelerator
+# Blueprint Accelerator: Azure SignalR Quickstart
 
 <img width="815" alt="final-build" src="https://user-images.githubusercontent.com/642655/174463463-e20583ad-1f8a-442c-8a5c-f48c6f8925ca.png">
 
